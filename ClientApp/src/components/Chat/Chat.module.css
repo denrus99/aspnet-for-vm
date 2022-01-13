@@ -1,0 +1,53 @@
+.chat {
+    display: flex;
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+    width: 360px;
+    background: #F2F3F5;
+    filter: drop-shadow(0 10px 1rem #000);
+}
+
+.chat:hover {
+    cursor: pointer;
+    background-color: #6c757d;
+}
+
+.userIcon {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.chatContent {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    padding: 0 10px;
+}
+
+.chatName {
+    font-weight: bold;
+    /*color: white;*/
+}
+.lastMessage {
+    display: flex;
+    align-items: center;
+}
+
+.lastMessageSender {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.lastMessageText {
+    width: 170px;
+    font-size: 14px;
+    /*color: white;*/
+    
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}

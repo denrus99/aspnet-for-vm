@@ -59,7 +59,7 @@ function Main() {
 
     return (
         <div className={cs.main}>
-            <h1>Test tag</h1>
+            <h1>Cron test tag</h1>
             {!isAuth && <Signin authenticateUser={authenticateUser}/>}
             {isAuth && showCreateChat && <CreateChatWindow login={user.login}
                                                      closeForm={(newChats) => {
